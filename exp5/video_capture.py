@@ -9,5 +9,5 @@ while True:
     cv2.imshow('Video', frame)
     if cv2.waitKey(1) == 27:
         break
-vid.release()
+cap.release()
 cv2.destroyAllWindows()
