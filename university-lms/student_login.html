@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student Login - LMS IGDTUW</title>
+    <link rel="icon" type="image/png" href="img/igdtuw_logo.jpg">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body id="home">
+<div class="wrapper">
+    <header id="header" class="">
+        <div class="header-wrapper">
+            <div class="header-container">
+                <div>
+                    <div class="logo-name">
+                        <div class="logo"><a href="index.html" title=""><img src="img/igdtuw_logo.jpg"
+                                                                             alt="logo"></a></div>
+                        <div class="name">
+                            <a href="index.html" title="">
+                                <h5>Indira Gandhi Delhi Technical University for Women</h5>
+                                <h6 class="primary-color">Learning Management System</h5>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="navbar navbar-inverse navbar-custom" role="navigation">
+                <div class="container">
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="https://igdtuw.ac.in/">Main Website</a></li>
+                            <li><a href="./student_login.html">Student Login</a></li>
+                            <li><a href="./faculty_login.html">Faculty Login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="widgets-wrapper">
+        <div class="widgets-container">
+
+            <div class="col-sm-4 col-sm-offset-4" id="announcements">
+                <div class='announcement-content '>
+                    <div class="widgets-title"><center><h2>Student Login</h2></center></div>
+                    <form>
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="studentEmail">Email address</label>
+                            <input type="email" id="studentEmail" name="studentEmail" class="form-control" />
+                        </div>
+                      <br>
+                        <div class="form-outline mb-4">
+                          <label class="form-label" for="studentPwd">Password</label>
+                          <input type="password" id="studentPwd" class="form-control" />
+                        </div>
+                      <br>
+                        <div class="row mb-4">
+                      
+                          <div class="col">
+                            <center><a class="pwd" href="#">Forgot password?</a></center>
+                          </div>
+                        </div>
+                      <br>
+                        <button type="button" class="btn btn-primary btn-block mb-4" onclick="main:StudentLogIn()">Sign in</button>
+                      </form>
+                </div>
+            </div>
+    </div>
+        
+    </div>
+
+    <footer>
+        <div class="footer-wrapper">
+            <span class="logo"><img src="img/igdtuw_logo.jpg" alt=""></span>
+            <div class="row">
+                <div class="col-sm-4 address">
+                    <strong>Address : </strong>Madrasa Road
+                    Opposite St. James Church
+                    Kashmere Gate
+                    Delhi-110006
+                </div>
+                <div class="col-sm-4 col-sm-offset-4 links">
+                    <div>
+                        <a href="https://igdtuw.ac.in">Main Website</a>
+                        <i class="seperator"></i>
+                        <a href="./student_login.html">Student Login</a>
+                        <i class="seperator"></i>
+                        <a href="./faculty_login.html">Faculty Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
